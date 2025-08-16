@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fflbizhub-client"   
+version = "0.1.0"
+description = "Thin Python client for Orchid FFL BizHub (auth + endpoints + search pagination)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Johnny Appleseed", email = "cyapppleseed@gmail.com" }]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests>=2.31.0",
+  "httpx>=0.27.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/fflbizhub
+
